@@ -15,11 +15,21 @@ body {
   padding: 0px 20px;
   margin: 0 auto;
 }
+
 li {
-  padding: 0px 10px;
+  display: flex;
+  width: 560px;
+  border-radius: 5px;
+  background-color: rgb(0, 81, 157);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
   color: white;
   font-size: 16px;
+  list-style: none;
+  margin: 10px;
 }
+
 #text {
   width: 500px;
   padding: 10px 10px;
@@ -32,7 +42,7 @@ li {
   color: rgb(0, 64, 124);
 }
 
-#text::placeholder{
+#text::placeholder {
   color: rgba(0, 64, 124, 0.621);
 }
 .todo_list {
@@ -46,18 +56,6 @@ li {
   min-height: 300px;
 }
 
-.ul_div {
-  display: flex;
-  width: 560px;
-  border-radius: 5px;
-  background-color: rgb(0, 81, 157);
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  list-style: none;
-  margin: 10px;
-}
-
 .btn_delete {
   background-color: rgb(255, 60, 60);
   color: white;
@@ -67,7 +65,7 @@ li {
   border-radius: 0px 5px 5px 0px;
   padding: 10px 10px;
 }
-.btn_delete:active{
+.btn_delete:active {
   background-color: rgb(255, 88, 88);
 }
 
@@ -81,15 +79,15 @@ li {
   padding: 0px 15px;
 }
 
-.btn:active{
+.btn:active {
   background-color: rgb(0, 219, 0);
 }
 
-.todo_list_h1{
+.todo_list_h1 {
   font-size: 32px;
   color: white;
   margin-bottom: 15px;
 }
-.form{
+.form {
   display: flex;
 }
